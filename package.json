@@ -1,9 +1,10 @@
 {
-  "name": "latihanGraph",
+  "name": "latihangraph",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "express-graphql": "^0.9.0",
     "graphql": "^14.6.0",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
